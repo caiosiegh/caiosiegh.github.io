@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+html {
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background: #121012;
+}
+
+.header {
+  margin: 0 auto;
+  max-width: 75rem;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  flex-wrap: nowrap;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  align-items: center;
+  gap: 1.875rem;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+.header-menu a {
+  text-decoration: none;
+  color: white;
+  background: #5ccb5f;
+  padding: 20px;
+  border-radius: 2rem;
+  white-space: nowrap;
+}
+
+a:hover {
+  background: #009929;
+}
+
+.sobre-mim {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 75rem;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.teste {
+  background-color: transparent;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+}
+
+.sobre-mim-conteudo {
+  color: #fff;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 20px;
+}
+
+.caio {
+  max-width: 500px;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+  margin: auto;
+}
+
+.sobre-mim-detalhes {
+  display: flex;
+  list-style: none;
+  color: #fff;
+  font-size: 1.8rem;
+  flex-wrap: nowrap;
+  gap: 4rem;
+  align-self: center;
+  padding: 1rem;
+  align-items: center;
+}
+
+.sobre-mim-detalhes li {
+  border: #5ccb5f solid 0.1rem;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.sobre-mim-img-conteudo {
+  text-align: center;
+}
