@@ -5,6 +5,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   background: #121012;
 }
 
@@ -51,6 +52,10 @@ body {
   align-items: center;
 }
 
+.sobre-mim-img-conteudo {
+  text-align: center;
+}
+
 .teste {
   background-color: transparent;
 }
@@ -68,6 +73,8 @@ h2 {
   flex-direction: column;
   flex-wrap: nowrap;
   padding: 20px;
+  max-width: 75rem;
+  margin: 0 auto;
 }
 
 .caio {
@@ -97,10 +104,6 @@ h2 {
   font-size: 1.2rem;
 }
 
-.sobre-mim-img-conteudo {
-  text-align: center;
-}
-
 .youtube {
   max-width: 75rem;
   margin: 0 auto;
@@ -114,8 +117,10 @@ h2 {
 }
 
 .youtube-conteudo {
+  max-width: 75rem;
   color: #fff;
   font-size: 1.8rem;
+  margin: auto auto;
 }
 
 .youtube-conteudo-videos {
@@ -147,13 +152,14 @@ h2 {
 
 .rodape {
   background-color: #000;
-  padding-left: 0px;
+  width: 100%;
+  position: absolute;
 }
 
 .rodape-conteudo {
   list-style: none;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   gap: 2rem;
@@ -178,4 +184,26 @@ h2 {
   color: #fff;
   text-align: center;
   font-style: italic;
+}
+
+@media (max-width: 800px) {
+  .sobre-mim-conteudo,
+  .youtube-conteudo,
+  .youtube-conteudo-videos,
+  .header-menu,
+  .header-menu-botao,
+  .sobre-mim {
+    width: 100%;
+  }
+  .youtube-conteudo-videos ul {
+    align-items: center;
+  }
+}
+
+strong {
+  color: #5ccb5f;
+}
+
+.rodape-logo p {
+  color: #5ccb5f;
 }
