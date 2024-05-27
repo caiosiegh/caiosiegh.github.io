@@ -39,7 +39,7 @@ body {
   white-space: nowrap;
 }
 
-a:hover {
+.header-menu-botao:hover {
   background: #009929;
 }
 
@@ -99,4 +99,83 @@ h2 {
 
 .sobre-mim-img-conteudo {
   text-align: center;
+}
+
+.youtube {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.youtube h3 {
+  max-width: 75rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.youtube-conteudo {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.youtube-conteudo-videos {
+  color: #fff;
+  font-size: 1.8rem;
+  border: solid 0.25rem transparent;
+}
+
+.youtube-conteudo-videos ul {
+  max-width: 75rem;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.thumb {
+  width: 22rem;
+}
+
+.youtube-conteudo-videos img {
+  border: solid 0.15rem transparent;
+}
+
+.youtube-conteudo-videos img:hover {
+  border: solid 0.15rem #5ccb5f;
+}
+
+.rodape {
+  background-color: #000;
+  padding-left: 0px;
+}
+
+.rodape-conteudo {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.rodape-conteudo img {
+  width: 15rem;
+  margin: 0 auto;
+}
+
+.rodape-email {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.rodape-logo img {
+  width: 20rem;
+}
+
+.rodape-logo p {
+  width: 20rem;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
 }
