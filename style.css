@@ -207,3 +207,8 @@ strong {
 .rodape-logo p {
   color: #5ccb5f;
 }
+
+a {
+  color: #5ccb5f;
+  text-decoration: none;
+}
